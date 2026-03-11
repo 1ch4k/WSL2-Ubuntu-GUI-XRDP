@@ -1,6 +1,6 @@
 # WSL2 Ubuntu Full Desktop Environment (XFCE4 + XRDP)
 
-This repository provides a comprehensive guide to setting up a full Graphical User Interface (GUI) on Ubuntu WSL2 using XRDP. This configuration bypasses the "Black Screen" bug, permission issues with WSLg, and common browser crashes.
+This repository provides a comprehensive guide to setting up a full Graphical User Interface (GUI) on Ubuntu WSL2 using XRDP. This configuration bypasses the "Black Screen" bug and permission issues with WSLg.
 
 ---
 
@@ -74,4 +74,5 @@ sudo apt install xrdp -y
 6. **Login:** Use your Ubuntu username and password.
 
 ## Troubleshooting
+
 - **Black Screen:** Run ```sudo service xrdp restart``` and ```sudo pkill -u $(whoami)```.
